@@ -1,0 +1,29 @@
+{
+  "name": "siteperso",
+  "version": "1.0.0",
+  "description": "Site perso de moi",
+  "author": "Mathieu NICOLAS",
+  "private": true,
+  "engines": {
+    "node": "~11.0.0",
+    "npm": "~6.0.0"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt build && nuxt export",
+    "serve": "nuxt serve"
+  },
+  "dependencies": {
+    "@nuxt/components": "^0.3.4",
+    "@nuxt/content": "github:nuxt/content",
+    "medium-zoom": "^1.0.5",
+    "nuxt-edge": "^2.13.0-26532020.db65c2eb",
+    "rehype-katex": "^3.0.0",
+    "remark-math": "^2.0.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/netlify-files": "^1.2.0"
+  }
+}
